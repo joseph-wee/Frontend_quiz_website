@@ -21,7 +21,12 @@
 }
 .top-content {
   text-align: center;
-  margin-top: 130px;
+  padding-top: 100px;
+  font-size: 30px;
+}
+.top-content-right {
+  text-align: center;
+  padding-top: 30px;
   font-size: 30px;
 }
 .top-center-content1 {
@@ -68,4 +73,23 @@
   height: 100px;
   width: 100px;
   transform: scale(0.3);
+}
+
+button {
+  font-size: 30px;
+  background-color: gray;
+  color: white;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+}
+
+button:hover {
+  font-size: 30px;
+  background-color: yellow;
+  color: black;
+  border-radius: 10px;
+  padding: 5px 10px;
+  border: none;
+  transition: 0.3s;
 }
